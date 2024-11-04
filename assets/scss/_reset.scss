@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        font-family: 'yalcin', sans-serif; /* Yedek font belirtmeyi unutma */
+}
+@font-face {
+    font-family: 'yalcin'; /* Font adını istediğin gibi belirleyebilirsin */
+    src: url('FontsFree-Net-Lulo-Clean-W01-One-Bold') format('ttf'), /* Dosya uzantısına göre değiştir */
+         url('FontsFree-Net-Lulo-Clean-W01-One-Bold') format('ttf');
+    font-weight: normal; /* Eğer farklı ağırlıklar varsa, ekleyebilirsin */
+    font-style: normal; /* Eğer italik varsa, burayı değiştirebilirsin */
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+a,ul{
+    text-decoration: none;
+    list-style: none;
+}

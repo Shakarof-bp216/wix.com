@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "yalcin", sans-serif; /* Yedek font belirtmeyi unutma */
+}
+
+@font-face {
+  font-family: "yalcin"; /* Font adını istediğin gibi belirleyebilirsin */
+  src: url("FontsFree-Net-Lulo-Clean-W01-One-Bold") format("ttf"), url("FontsFree-Net-Lulo-Clean-W01-One-Bold") format("ttf");
+  font-weight: normal; /* Eğer farklı ağırlıklar varsa, ekleyebilirsin */
+  font-style: normal; /* Eğer italik varsa, burayı değiştirebilirsin */
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a, ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  height: 114px;
+}
+
+.contanier {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.navbar_flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar_leftpart {
+  text-align: center;
+  cursor: pointer;
+}
+
+.navbar_rightpart__section_name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar_rightpart__section_name li:hover {
+  color: rgb(49, 127, 129);
+}
+.navbar_rightpart__section_name li {
+  cursor: pointer;
+}
+
+.navbar_login {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.navbar_login h1 {
+  margin-bottom: 20px;
+}
+.navbar_login h1:hover {
+  color: rgb(49, 127, 129);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+.navbar {
+    height: 114px;
+}
+
+.contanier {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.navbar_flexbox {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar_leftpart {
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.navbar_rightpart__section_name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar_rightpart__section_name {
+    li:hover {
+        color: rgb(49, 127, 129);
+    }
+
+    li {
+        cursor: pointer;
+    }
+}
+
+.navbar_login {
+    display: flex;
+    gap: 5px;
+
+    align-items: center;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    h1:hover {
+        color: rgb(49, 127, 129);
+    }
+}
