@@ -1,0 +1,95 @@
+.howican_section {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/font/download.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    
+    @media only screen and (max-width: 950px) {
+        .howican_section {
+          background-image: none;
+        }
+      }
+
+    .howican_section_text {
+        font-size: 42px;
+        margin:  40px;
+        width: 350px;
+
+    }
+
+    .howican_section_cart_contanier {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 60px;
+
+        .howican_section_carts {
+            height: 400px;
+            width: 295px;
+            border: 5px solid black;
+            position: relative;
+
+
+            .howican_section_carts_text {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+
+            h2 {
+                margin: 20px;
+                font-size: 34px;
+
+            }
+
+            p {
+                margin: 10px;
+                font-size: 15px;
+
+
+
+            }
+
+            hr {
+                margin: 25px;
+
+            }
+        }
+
+    }
+}
+
+.howican_section_text {
+    height: 100px;
+    width: 450px;
+}
+
+.howican_section_carts_button_contanier {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .howican_section_carts_button {
+
+        height: 40px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
+
+
+    }
+
+    .howican_section_carts_button:hover {
+        background-color: white;
+        color: black;
+
+    }
+}

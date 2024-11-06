@@ -1,3 +1,19 @@
 .howican_section {
   height: 100vh;
+  width: 100%;
+}
+.howican_section .howican_section_cart_contanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.howican_section .howican_section_cart_contanier .howican_section_carts {
+  height: 400px;
+  width: 295px;
+  border: 5px solid black;
+}
+
+.howican_section_text {
+  height: 100px;
+  width: 450px;
 }/*# sourceMappingURL=howican.css.map */
