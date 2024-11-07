@@ -35,7 +35,7 @@ a, ul {
 }
 
 .contanier {
-  max-width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   height: 100%;
 }
@@ -96,13 +96,10 @@ a, ul {
 }
 
 @media only screen and (max-width: 1050px) {
-  body {
-    background-color: lightblue;
-  }
-  body .navbar_rightpart__section_name {
+  .navbar_rightpart__section_name {
     display: none;
   }
-  body .hidden_navbar_button {
+  .hidden_navbar_button {
     display: block;
   }
 }
@@ -157,31 +154,29 @@ a, ul {
 }
 .aboutme_section .aboutme_section__left {
   margin-left: auto;
-  width: 40%;
+  margin: auto;
 }
 .aboutme_section .aboutme_section__left_top {
-  width: 371px;
+  max-width: 371px;
   height: 128px;
 }
 .aboutme_section .aboutme_section__left_top p {
   margin: auto;
 }
 .aboutme_section .aboutme_section__left_bottom {
-  width: 371px;
+  max-width: 371px;
   height: 128px;
+  margin-top: 170px;
 }
-.aboutme_section .aboutme_section__right {
-  height: 650px;
-}
-
 .aboutme_section__flexbox {
   display: flex !important;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .howican_section {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-image: url("/font/download.png");
   background-repeat: no-repeat;
@@ -197,7 +192,7 @@ a, ul {
 .howican_section .howican_section_text {
   font-size: 42px;
   margin: 40px;
-  width: 350px;
+  max-width: 350px;
 }
 .howican_section .howican_section_cart_contanier {
   display: flex;
@@ -209,7 +204,7 @@ a, ul {
 }
 .howican_section .howican_section_cart_contanier .howican_section_carts {
   height: 400px;
-  width: 295px;
+  max-width: 295px;
   border: 5px solid black;
   position: relative;
 }
@@ -231,7 +226,7 @@ a, ul {
 
 .howican_section_text {
   height: 100px;
-  width: 450px;
+  max-width: 450px;
 }
 
 .howican_section_carts_button_contanier {
@@ -252,4 +247,53 @@ a, ul {
 .howican_section_carts_button_contanier .howican_section_carts_button:hover {
   background-color: white;
   color: black;
+}
+
+.ended_section {
+  background-color: rgb(49, 127, 129);
+  width: 100%;
+  padding: 40px;
+}
+.ended_section .ended_section_contact {
+  height: fit-content;
+  width: fit-content;
+}
+.ended_section p:nth-child(2) {
+  margin-top: 20px;
+}
+.ended_section p:nth-child(3) {
+  margin-bottom: 20px;
+}
+.ended_section p:nth-child(4) {
+  margin-top: 20px;
+}
+.ended_section p:nth-child(5) {
+  margin-bottom: 20px;
+}
+.ended_section .enden_ptag {
+  margin-top: 60px;
+}
+.ended_section p {
+  width: 225px;
+}
+.ended_section .ended_section_flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ended_section .ended_section_form {
+  max-width: 600px;
+  margin-left: 20px;
+}
+.ended_section form input {
+  background-color: rgb(49, 127, 129);
+  border: 2px solid black;
+}
+.ended_section .icon_cotanier {
+  width: 127px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */

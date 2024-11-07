@@ -1,0 +1,72 @@
+.ended_section{
+    background-color: rgb(49,127,129);
+    width: 100%;
+    padding: 40px;
+
+  
+.ended_section_contact{
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+p:nth-child(2) {
+    margin-top: 20px;
+}
+
+p:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+p:nth-child(4) {
+    margin-top: 20px;
+}
+
+p:nth-child(5) {
+    margin-bottom: 20px;
+}
+.enden_ptag{
+    margin-top: 60px;
+}
+
+p{
+    width: 225px;
+}
+
+.ended_section_flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ended_section_form {
+    max-width:600px ;
+    margin-left: 20px;
+}
+
+
+form input {
+    background-color: rgb(49,127,129);
+    border: 2px solid black ;
+}
+.icon_cotanier{
+    width: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+}

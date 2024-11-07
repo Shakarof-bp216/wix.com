@@ -4,31 +4,35 @@
 
     .aboutme_section__left {
         margin-left: auto;
-        width: 40%;
+        
+        margin: auto;
 
     }
 
     .aboutme_section__left_top {
-        width: 371px;
+        max-width:  371px;
         height: 128px;
 
         p {
             margin: auto;
         }
     }
-
+  
     .aboutme_section__left_bottom {
-        width: 371px;
+        max-width: 371px;
         height: 128px;
+        margin-top: 170px;
     }
 
 
     .aboutme_section__right {
 
-        height: 650px;
+       
 
     }
-
+    .aboutme_section__left__button_contanier{
+       
+    }
 
 }
 
@@ -36,4 +40,5 @@
     display: flex !important;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }

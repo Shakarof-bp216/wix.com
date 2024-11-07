@@ -10,14 +10,13 @@
 }
 
 .contanier {
-    max-width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     height: 100%;
 }
 
 .navbar_flexbox {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
     height: 100%;
@@ -80,14 +79,12 @@
 }
 
 @media only screen and (max-width: 1050px) {
-    body {
-        background-color: lightblue;
-
+    
         .navbar_rightpart__section_name{
             display: none;
         }
         .hidden_navbar_button{
             display: block;
         }
-    }
+    
 }

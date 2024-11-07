@@ -1,5 +1,5 @@
 .howican_section {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-image: url("/font/download.png");
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     .howican_section_text {
         font-size: 42px;
         margin:  40px;
-        width: 350px;
+        max-width: 350px;
 
     }
 
@@ -30,7 +30,7 @@
 
         .howican_section_carts {
             height: 400px;
-            width: 295px;
+            max-width: 295px;
             border: 5px solid black;
             position: relative;
 
@@ -65,7 +65,7 @@
 
 .howican_section_text {
     height: 100px;
-    width: 450px;
+    max-width: 450px;
 }
 
 .howican_section_carts_button_contanier {
